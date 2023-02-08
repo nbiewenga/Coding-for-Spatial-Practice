@@ -1,0 +1,32 @@
+font-family: 'Catamaran', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+
+body{
+    font-family: montserrat;
+    background:blue;
+}
+
+
+.container{
+    background:rgb(220, 220, 208);
+    padding: 20px 40px;
+    line-height: 28px;
+}
+
+h1{
+    font-family: Exo+2;
+    text-transform: capitalize;
+}
+
+.pullquote{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    line-height: 120px;
+}
+
+p{
+    width: 50%;
+}
