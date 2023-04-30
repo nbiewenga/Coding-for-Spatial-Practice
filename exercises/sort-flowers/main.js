@@ -95,5 +95,3 @@ function filterFn(event) {
   }
 }
 filterBtns.addEventListener("click", filterFn);
-
-let filterBtns = document.
