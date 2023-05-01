@@ -16,7 +16,7 @@
     min-height: 100vh;
   }
   
-  main, header, footer {
+  main, header, footer, br {
     padding: 20px;
     border: 1px solid #f1eeee;
     color: #eeeaea;
