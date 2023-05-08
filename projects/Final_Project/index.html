@@ -9,23 +9,19 @@
 </head>
 <body>
      <divclass="container">
-        <!--Drop Down Filter-->
-        </divclass><div class="dropdown-container">
-            <label for="color-select">Choose a size:</label>
-        
-            <select name="size" id="size-select">
-            <option value="">Please choose a size</option>
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-            <option value="all">All</option>
-            </select>
-        </div>
+        <div class="filters">
+            <h2>Please select the size of the island...</h2>
+            <br>
+            <button class="filter-btn" data-filter="small">Small</button>
+            <button class="filter-btn" data-filter="medium">Medium</button>
+            <button class="filter-btn" data-filter="large">Large</button>
+            <button class="filter-btn active" data-filter="all">All</button>
+          </div>
     <!-- Results -->
         <div class="list">
             <br>
             <br>
-            <h2>Islands</h2>
+            <h2>The Most Densly Populated Islands</h2>
             <br>
             <ul></ul>
             <br>
